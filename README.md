@@ -3,3 +3,6 @@
 
 
 ![image](https://github.com/user-attachments/assets/cbd1b6eb-4c24-4b87-a92d-5f03a564dc3b)
+
+
+* Все методы выполнены в классе Main
