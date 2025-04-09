@@ -1,12 +1,12 @@
 
-<<<<<<< HEAD
-
-![image](https://github.com/user-attachments/assets/6c3a4cfe-87a1-45d7-ae48-c591e64bf523)
-
-Созданы классы Park и Product
 
 
-=======
-1. [LESSON_3](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_3)
-2. [LESSON_4](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_4/README.md)
->>>>>>> e74a86b1edab76d61269f2e594472c8eb68f37cc
+![image](https://github.com/user-attachments/assets/4fe62244-8e06-4ae7-9f7a-4ac7674a9386)
+
+![image](https://github.com/user-attachments/assets/2d3f2b27-30d4-4d58-8110-389348f7e80f)
+
+
+
+Созданы классы Animal, Bowl, Cat, Dog, Circle, Rectangle, Triangle
+Создан интерфейс GeometricShape
+
