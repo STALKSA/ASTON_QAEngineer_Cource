@@ -3,6 +3,7 @@ package org.classes.animals;
 public class Bowl {
 
     private int foodAmount;
+   
     public Bowl(int initialFood) {
         this.foodAmount = initialFood;
     }
