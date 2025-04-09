@@ -25,7 +25,6 @@ public class Triangle implements GeometricShape {
 
     @Override
     public double calculateArea() {
-        // Формула Герона
         double p = calculatePerimeter() / 2;
         return Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
     }
