@@ -8,5 +8,6 @@
 
 
 Созданы классы Animal, Bowl, Cat, Dog, Circle, Rectangle, Triangle
+
 Создан интерфейс GeometricShape
 
