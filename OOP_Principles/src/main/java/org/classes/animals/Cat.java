@@ -6,6 +6,7 @@ public class Cat extends Animal {
     private boolean isFull;
     private static final int CAT_MAX_RUN = 200;
     private static final int CAT_MAX_SWIM = 0;
+    
     public Cat(String name) {
         super(name, CAT_MAX_RUN, CAT_MAX_SWIM, false);
         this.isFull = false;
