@@ -31,4 +31,4 @@ buildNumber.properties
 ### Системные файлы ###
 .DS_Store
 Thumbs.db
-*.swp
+*.sw
