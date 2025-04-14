@@ -3,3 +3,4 @@
 1. [LESSON_3](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_3)
 2. [LESSON_4](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_4/README.md)
 3. [LESSON_5](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_5)
+4. [LESSON_6](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_6)
