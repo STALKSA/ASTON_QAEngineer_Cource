@@ -1,4 +1,4 @@
-Данный репозиторий предназначен для сдачи заданий по AQA и QA
+
 
 [Ссылка на миро с выполненным заданием по SQL](https://miro.com/welcomeonboard/QW4vbXZPc1liM1ppbUd4Y2Q5dVVVV2tMR29IWHlCUjlkdjNMQ2xWU2NXSHFnL3E2WUduZkptSE5Ib3dHR3F5S0tlODAvWnNxd2VKQ2pQcU9QZEpva1NBbjFhUkFTZVJ6WEdIcWg5bHdIanliZzNxUlpsbnBITlladXVrTTVyZXRBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=961886926259)
 
