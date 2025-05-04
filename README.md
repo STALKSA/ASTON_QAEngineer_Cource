@@ -1,9 +1,4 @@
 Данный репозиторий предназначен для сдачи заданий по AQA и QA
 
-1. [LESSON_3](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_3)
-2. [LESSON_4](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_4/README.md)
-3. [LESSON_5](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_5)
-4. [LESSON_6](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_6)
-5. [LESSON_7](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_7)
-6. [LESSON_8](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_8)
-7. [LESSON_9-10](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_9-10)
+[Ссылка на миро с выполненным заданием по SQL](https://miro.com/welcomeonboard/QW4vbXZPc1liM1ppbUd4Y2Q5dVVVV2tMR29IWHlCUjlkdjNMQ2xWU2NXSHFnL3E2WUduZkptSE5Ib3dHR3F5S0tlODAvWnNxd2VKQ2pQcU9QZEpva1NBbjFhUkFTZVJ6WEdIcWg5bHdIanliZzNxUlpsbnBITlladXVrTTVyZXRBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=961886926259)
+
