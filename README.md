@@ -1,6 +1,6 @@
 
 
-- Задание 1
+- Задание 1 [тут](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_11/API%20Star%20Wars.postman_collection.json)
 
 
 - Задание 2
