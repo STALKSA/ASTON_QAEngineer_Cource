@@ -2,6 +2,20 @@
 
 - Задание 1 [тут](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_11/API%20Star%20Wars.postman_collection.json)
 
+  ![image](https://github.com/user-attachments/assets/d64b1d4d-fb58-4021-8b21-009844b97af5)
+
+  ![image](https://github.com/user-attachments/assets/42f49173-335e-4119-b13c-9e552c2056bf)
+
+  ![image](https://github.com/user-attachments/assets/94ea7ae1-b9e1-4849-8e46-6ed4f9e3458d)
+
+  ![image](https://github.com/user-attachments/assets/1a7c55b9-75e7-4c01-9ceb-d81583c08413)
+
+  ![image](https://github.com/user-attachments/assets/75102bc8-b569-4dff-90c4-7ebf9d4da447)
+
+  ![image](https://github.com/user-attachments/assets/cd2340db-68e7-493a-a4ef-f3913544be5d)
+
+
+
 
 - Задание 2
 
