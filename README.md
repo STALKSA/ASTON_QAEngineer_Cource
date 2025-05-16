@@ -1,9 +1,15 @@
-Данный репозиторий предназначен для сдачи заданий по AQA и QA
 
-1. [LESSON_3](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_3)
-2. [LESSON_4](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_4/README.md)
-3. [LESSON_5](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_5)
-4. [LESSON_6](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_6)
-5. [LESSON_7](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_7)
-6. [LESSON_8](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_8)
-7. [LESSON_9-10](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_9-10)
+
+- Задание 1
+
+
+- Задание 2
+
+  ![image](https://github.com/user-attachments/assets/1fb4390a-2ce7-4c02-98a9-acdc9df44701)
+
+
+- Задание 3
+
+  ![image](https://github.com/user-attachments/assets/124ebaa1-c766-486b-a29c-2206167e19e3)
+  
+![image](https://github.com/user-attachments/assets/49c535f9-02af-440d-a7f7-697f28de9680)
