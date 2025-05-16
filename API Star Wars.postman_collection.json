@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "4a02264a-56b0-4fc3-953e-27300ddf6bbc",
+		"name": "API Star Wars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24538552"
+	},
+	"item": [
+		{
+			"name": "Получить список всех персонажей",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/people/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"people",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить информацию о Darth Vader по ID и поля birth_year из информации о Darth Vader",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"console.log(\"Birth year: \" + jsonData.result.properties.birth_year);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/people/4",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"people",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Поиск персонажей с \"ars\" в имени",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/people/?search=ars",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"people",
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "ars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Информация о третьем эпизоде",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/films/3",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"films",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Поиск транспортного средства с \"Sail\" в имени в формате wookiee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/vehicles/?search=Sail&format=wookiee",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"vehicles",
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Sail"
+						},
+						{
+							"key": "format",
+							"value": "wookiee"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Поиск планеты \"Yavin IV\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.tech/api/planets/?search=Yavin%20IV",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"tech"
+					],
+					"path": [
+						"api",
+						"planets",
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Yavin%20IV"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
