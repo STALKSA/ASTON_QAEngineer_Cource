@@ -8,3 +8,4 @@
 6. [LESSON_8](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_8)
 7. [LESSON_9-10](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_9-10)
 8. [LESSON_11](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_11)
+9. [LESSON_12](https://github.com/STALKSA/ASTON_QAEngineer_Cource/blob/LESSON_12/README.md)
