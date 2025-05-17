@@ -21,6 +21,10 @@
 
   ![image](https://github.com/user-attachments/assets/1fb4390a-2ce7-4c02-98a9-acdc9df44701)
 
+  тут что-то пошло не так
+  ![image](https://github.com/user-attachments/assets/917fdf50-0605-421a-8324-f6a337648daa)
+
+
 
 - Задание 3
 
