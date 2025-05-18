@@ -23,7 +23,6 @@ public class MtsByTest {
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--start-maximized");
 
-        // Добавляем параметр для автоматического принятия куки
         options.setExperimentalOption("prefs", Map.of(
                 "profile.default_content_setting_values.cookies", 1,
                 "profile.cookie_controls_mode", 0
@@ -33,9 +32,7 @@ public class MtsByTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         driver.get(SITE_URL);
 
-        // Улучшенная обработка куки-баннера
         try {
-            // Проверяем наличие баннера (увеличиваем timeout для куки)
             new WebDriverWait(driver, Duration.ofSeconds(3))
                     .until(ExpectedConditions.elementToBeClickable(
                             By.xpath("//button[contains(., 'Принять') or contains(., 'Accept')]")))
@@ -52,15 +49,6 @@ public class MtsByTest {
         }
     }
 
-    //@Test(priority = 1)
-    //public void testBlockTitle() {
-        // Более точный локатор для заголовка
-    //   WebElement blockTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(
-     //           By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/h2")
-     //   ));
-     //   Assert.assertTrue(blockTitle.getText().contains("без комиссии"),
-      //          "Заголовок блока не соответствует ожидаемому");
-    //}
 
     @Test(priority = 1)
     public void testBlockTitle() {
@@ -77,18 +65,6 @@ public class MtsByTest {
         }
     }
 
-   // @Test(priority = 2)
-   // public void testPaymentLogos() {
-        // Проверяем наличие текстовых упоминаний платежных систем
-     //   boolean hasVisa = driver.findElements(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul/li[1]/img")).size() > 0;
-    //    boolean hasMastercard = driver.findElements(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul/li[3]/img")).size() > 0;
-    //    boolean hasBelcard = driver.findElements(By.xpath("//*[@id=\"pay-section\"]/div/div/div[2]/section/div/div[2]/ul/li[5]/img")).size() > 0;
-
-
-    //    Assert.assertTrue(hasVisa, "Не найдено упоминание Visa");
-     //   Assert.assertTrue(hasMastercard, "Не найдено упоминание MasterCard");
-     //   Assert.assertTrue(hasBelcard, "Не найдено упоминание Белкарт");
-   // }
 
     @Test(priority = 2)
     public void testPaymentLogos() {
@@ -99,7 +75,6 @@ public class MtsByTest {
 
             Assert.assertTrue(logos.size() >= 3, "Найдено недостаточно логотипов платежных систем");
 
-            // Проверяем видимость каждого логотипа
             for (WebElement logo : logos) {
                 Assert.assertTrue(logo.isDisplayed(), "Логотип не отображается");
             }
@@ -111,34 +86,28 @@ public class MtsByTest {
     @Test(priority = 3)
     public void testPaymentForm() {
         try {
-            // Выбираем "Услуги связи"
             WebElement serviceLabel = wait.until(ExpectedConditions.elementToBeClickable(
                     By.xpath("//label[contains(., 'Услуги связи')] | //span[contains(., 'Услуги связи')]")
             ));
             serviceLabel.click();
 
-            // Вводим номер
             WebElement phoneInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.xpath("//input[contains(@placeholder, 'Номер телефона') or contains(@id, 'phone')]")
             ));
             phoneInput.clear();
             phoneInput.sendKeys("297777777");
 
-            // Нажимаем "Продолжить"
             WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(
                     By.xpath("//button[contains(., 'Продолжить')]")
             ));
             continueButton.click();
 
-            // Проверяем результат
             try {
-                // Вариант 1: Проверяем сообщение об успехе
                 WebElement successElement = wait.until(ExpectedConditions.visibilityOfElementLocated(
                         By.xpath("//*[contains(., 'оплата') or contains(., 'платеж') or contains(., 'успешно')]")
                 ));
                 Assert.assertTrue(successElement.isDisplayed());
             } catch (TimeoutException e) {
-                // Вариант 2: Проверяем изменение URL
                 wait.until(ExpectedConditions.not(ExpectedConditions.urlToBe(SITE_URL)));
                 Assert.assertNotEquals(driver.getCurrentUrl(), SITE_URL,
                         "Не произошло перенаправление после отправки формы");
@@ -151,7 +120,6 @@ public class MtsByTest {
     @Test(priority = 4)
     public void testDetailsLink() {
         try {
-            // Ищем ссылку "Подробнее о сервисе"
             WebElement detailsLink = wait.until(ExpectedConditions.elementToBeClickable(
                     By.xpath("//*[@id=\"pay-section\"]//a[contains(., 'Подробнее')]")
             ));
@@ -159,14 +127,11 @@ public class MtsByTest {
             String originalUrl = driver.getCurrentUrl();
             detailsLink.click();
 
-            // Ждем изменения URL или открытия новой вкладки
             try {
-                // Вариант 1: Ожидаем изменения URL в текущей вкладке
                 wait.until(ExpectedConditions.not(ExpectedConditions.urlToBe(originalUrl)));
                 Assert.assertNotEquals(driver.getCurrentUrl(), originalUrl,
                         "Ссылка не изменила URL текущей страницы");
             } catch (TimeoutException e1) {
-                // Вариант 2: Проверяем открытие новой вкладки
                 if (driver.getWindowHandles().size() > 1) {
                     String originalWindow = driver.getWindowHandle();
                     for (String windowHandle : driver.getWindowHandles()) {
