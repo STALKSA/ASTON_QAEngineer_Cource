@@ -15,5 +15,3 @@
 13. [LESSON_16_junit_5](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/Lesson_16_junit_5)
 14. [LESSON_16_testng](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/Lesson_16_testng)
 15. [LESSON_17](https://github.com/STALKSA/ASTON_QAEngineer_Cource/tree/LESSON_17)
-
-
